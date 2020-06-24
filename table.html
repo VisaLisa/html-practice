@@ -91,11 +91,35 @@
             </tr>
         </tbody>
       </table>
-
+ 
       <br><br><br>
+    <h1>Form Demo - Registration</h1>
     <form>
-      <input name="city" type="text" placeholder="Type city name">
-      <input>
+        <h2>Name</h2>
+        <p>Enter your name</p>
+        <input name="name" 
+        type="text" 
+        placeholder="Type full name" 
+        minlength="2" 
+        maxlength="10" 
+        required> <br><br>
+
+        <h2>Email</h2>
+        <p>Enter your email</p>
+        <input type="email" placeholder="Email"><br><br>
+
+        <h2>Password</h2>
+        <p>Enter your password</p>
+        <input type="password" placeholder="Password"><br><br>
+
+        <h2>Terms of Service</h2>
+        <input name="tos-s"
+        type="checkbox"
+        >I agree to the terms of service<br><br>
+
+        <button type="submit">Submit Form</button>
+
+
     </form>
 </body>
 </html>
