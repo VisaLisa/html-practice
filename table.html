@@ -95,32 +95,29 @@
       <br><br><br>
     <h1>Form Demo - Registration</h1>
     <form>
-        <h2>Name</h2>
-        <p>Enter your name</p>
+        <h3>Name</h3>
+        <label>Enter your name
         <input name="name" 
         type="text" 
         placeholder="Type full name" 
         minlength="2" 
         maxlength="10" 
-        required> <br><br>
+        required></label> <br><br>
 
-        <h2>Email</h2>
-        <p>Enter your email</p>
-        <input type="email" placeholder="Email"><br><br>
+        <h3>Email</h3>
+        <label>Enter your email
+        <input type="email" placeholder="Email"><br><br></label>
 
-        <h2>Password</h2>
-        <p>Enter your password</p>
-        <input type="password" placeholder="Password"><br><br>
+        <h3>Password</h3>
+        <label>Enter your password
+        <input type="password" placeholder="Password"><br><br></label>
 
-        <h2>Terms of Service</h2>
-        <input name="tos-agree" type="checkbox"
-        >I agree to the terms of service<br><br>
-
-        <button type="submit">Submit Form</button>
-    </form>
-    <br><br><br>
+        <h3>Terms of Service</h3>
+        <label><input name="tos-agree" type="checkbox"
+        >I agree to the terms of service </label><br><br>
+    <br>
     <h1>Personal setting</h1>
-    <form>
+
         Pick your shirt size:<br>
         <input type="radio" name="shirt-size" value="XS"> XS <br>
         <input type="radio" name="shirt-size" value="S"> S <br>
@@ -128,10 +125,10 @@
         <input type="radio" name="shirt-size" value="L"> L <br>
         <input type="radio" name="shirt-size" value="XL"> XL <br>
         <br>
-        Enter your Birthday:<input type="date" name="birthday" ><br>
-        Pick a Color: <input type="color" name="color"><br>
-        How happy are you? <input type="range" min="1" max="10"><br>
-        <button type="button">Submit personal setting</button>
+        Enter your Birthday:<input type="date" name="birthday" ><br><br>
+        Pick a Color: <input type="color" name="color"><br><br>
+        How happy are you? <input type="range" min="1" max="10"><br><br>
+        <button type="button">Submit</button>
     </form>
 </body>
 </html>
